@@ -52,3 +52,9 @@ semanas_temperaturas = ingresar_datos(ciudades, semanas)
 
 resultados = calcular_temperatura_promedio(ciudades, semanas_temperaturas)
 mostrar_resultados(resultados)
+
+#Esta función tiene una lista de ciudades y una lista de temperaturas organizadas por semanas.
+#Tiene  promedios para almacenar la suma de las temperaturas de cada ciudad.
+#Calcula el total de días multiplicando el número de semanas por 7.
+#Repite el codigo sobre cada semana y cada ciudad, sumando las temperaturas.
+#Finalmente calcula el promedio dividiendo la suma total de temperaturas por el
